@@ -5,9 +5,9 @@ public class sequenciaprimos {
 		int i;
 		int x;
 		Scanner s = new Scanner(System.in);
-		System.out.println("Digite o valor para definir o comeÃ§o da sequÃªncia: ");
+		System.out.println("Digite o valor para definir o começo da sequência: ");
 		x = s.nextInt();
-		System.out.println("Digite o valor para definir o final da sequÃªncia: ");
+		System.out.println("Digite o valor para definir o final da sequência: ");
 		v = s.nextInt();
 		 	for(i=x;i<=v;i++) {
 		 		int contador=0;
@@ -16,7 +16,7 @@ public class sequenciaprimos {
 		 					contador++;
 		 				}
 		 			}if(contador==2) {
-		 				System.out.println("Esse nÃºmero Ã© primo: "+i);
+		 				System.out.println("Esse número é primo: "+i);
 		 			}
 		 	}
 }

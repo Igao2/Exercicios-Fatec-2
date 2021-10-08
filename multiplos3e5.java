@@ -5,11 +5,11 @@ public class multiplos3e5 {
 		int i;
 		
 	
-			for(i=1;i<v.length;i++) {
+			for(i=0;i<v.length;i++) {
 				v[i]=i;
 				
 			
-			for(i=1;i<v.length;i++) {
+			for(i=0;i<v.length;i++) {
 				if(v[i]%3==0) {
 					System.out.println(v[i]+" é múltiplo de 3");
 					
